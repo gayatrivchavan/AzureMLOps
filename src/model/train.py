@@ -12,8 +12,8 @@ from sklearn.model_selection import train_test_split
 
 # define functions
 def main(args):
-    # TO DO: enable autologging
-    console.log('main')
+    # TO DO: enable autologging, to enalbe autologging in main fuction with MLAutoLog
+    mlflow.autolog()
 
 
     # read data
